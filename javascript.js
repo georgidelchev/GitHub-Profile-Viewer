@@ -127,9 +127,10 @@ form.addEventListener('submit', function(event) {
                                 <td>${data[key].login}</td>
                                 <td>${data[key].type}</td>
                                 <td>
-                                <a href="${data[key].html_url}"><a>
+                                <a href="${data[key].html_url}">
                                 <button class="btn btn-danger">GitHub</button></td>
-                            </tr>
+                                <a>
+                                </tr>
                         </tbody>`
                         })
                     })
